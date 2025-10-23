@@ -177,11 +177,6 @@ Ahlan Mira - Student Security Researcher
 This project is provided for educational and research purposes.
 
 <div align="center">
-IN MEMORY OF NEXORA
-
-May this tool ensure that his name is never forgotten.
-
-USE RESPONSIBLY 
 
 Only use on systems you own or have explicit permission to test.
 
