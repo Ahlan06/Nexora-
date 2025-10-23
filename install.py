@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Automatic installation script for Shaban Logger
+Automatic installation script for Nexora Logger
 """
 
 import sys
@@ -57,22 +57,22 @@ def install_dependencies(pip_path):
 def create_launcher_scripts():
     """Create launcher scripts for easy use"""
     # Create Linux/Mac launcher
-    with open("run_shaban.sh", "w") as f:
+    with open("run_nexora.sh", "w") as f:
         f.write("""#!/bin/bash
 source venv/bin/activate
-python shaban.py
+python nexora.py
 """)
-    os.chmod("run_shaban.sh", 0o755)
+    os.chmod("run_nexora.sh", 0o755)
     
     # Create Windows launcher
-    with open("run_shaban.bat", "w") as f:
+    with open("run_nexora.bat", "w") as f:
         f.write("""@echo off
 venv\\Scripts\\activate
-python shaban.py
+python nexora.py
 """)
 
 def main():
-    print("Shaban Logger - Installation")
+    print("Nexora Logger - Installation")
     print("=" * 40)
     
     check_python_version()
@@ -83,9 +83,9 @@ def main():
         create_launcher_scripts()
         print("\nInstallation completed successfully!")
         print("\nNow you can run:")
-        print("  On Linux/Mac: ./run_shaban.sh")
-        print("  On Windows: run_shaban.bat")
-        print("  Or manually: source venv/bin/activate && python shaban.py")
+        print("  On Linux/Mac: ./run_nexora.sh")
+        print("  On Windows: run_nexora.bat")
+        print("  Or manually: source venv/bin/activate && python nexora.py")
     else:
         print("\nInstallation failed")
         sys.exit(1)

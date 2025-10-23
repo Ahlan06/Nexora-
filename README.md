@@ -14,11 +14,11 @@ Advanced System Monitoring and Logging Tool
 <a href="https://github.com/Ahlan06/shaban-logger/network/members"><img src="https://img.shields.io/github/forks/Ahlan06/shaban-logger.svg"></a>
 </p>
 
-## About Shaban Logger
+## About Nexora Logger
 
-**Shaban Logger** is an advanced system monitoring and logging tool designed for security professionals and system administrators. It provides comprehensive system information collection, screenshot capture, network monitoring, and process logging capabilities.
+**Nexora Logger** is an advanced system monitoring and logging tool designed for security professionals and system administrators. It provides comprehensive system information collection, screenshot capture, network monitoring, and process logging capabilities.
 
-*In tribute to Shaban, a young computer engineering graduate in Gaza, whose memory reflects the strength, knowledge, and hope of a people seeking justice.*
+
 
 ### Features
 
@@ -54,7 +54,7 @@ rm -rf venv
 python3 install.py
 
 # Start the application
-./run_shaban.sh
+./run_nexora.sh
 bash
  ```
 ### Download for Windows 
@@ -70,13 +70,13 @@ cd shaban-logger
 pip install requests pillow psutil pyautogui colorama
 
 # Run the application
-python shaban.py
+python nexora.py
 ```
 ## Webhook Configuration
 
 ### What is a Webhook?
 
-A webhook is a way for applications to provide real-time information to other applications. In Shaban Logger, it's used to send collected data to your specified endpoint.
+A webhook is a way for applications to provide real-time information to other applications. In Nexora Logger, it's used to send collected data to your specified endpoint.
 
 ### How to Get a Webhook
 
@@ -85,7 +85,7 @@ A webhook is a way for applications to provide real-time information to other ap
 1. **Create a Discord Server** or use an existing one
 2. **Go to Server Settings** → **Integrations** → **Webhooks**
 3. **Click "New Webhook"**
-4. **Name it** (e.g., "Shaban Logger")
+4. **Name it** (e.g., "Nexora Logger")
 5. **Copy the Webhook URL**
 6. **Use this URL in your configuration**
 # Project Structure
@@ -93,9 +93,9 @@ A webhook is a way for applications to provide real-time information to other ap
 shaban-logger/
 ├── install.py           # Automatic dependency installer
 ├── combined_logger.py   # Main logging system
-├── shaban.py           # Additional monitoring tools
-├── run_shaban.sh       # Linux/Mac launcher script
-├── run_shaban.bat      # Windows launcher script
+├── nexora.py           # Additional monitoring tools
+├── run_nexora.sh       # Linux/Mac launcher script
+├── run_nexora.bat      # Windows launcher script
 └── README.md           # Documentation
 
 # Dependencies
@@ -116,9 +116,9 @@ Linux (Kali Linux, Ubuntu, Debian)
 
 macOS (Untested but should work)
 
-# In Memoriam of Shaban Al Dalu
-This project is named after Shaban, a young Palestinian computer scientist from Gaza who had his whole life ahead of him. He died at the age of 19 during the bombing of Al-Aqsa Hospital by the Israeli Defense Forces on October 14, 2024.
-This tool aims to provide clarity and visibility, principles embodied in Shaban's memory.
+# In Memoriam of Nexora Al Dalu
+This project is named after Nexora, a young Palestinian computer scientist from Gaza who had his whole life ahead of him. He died at the age of 19 during the bombing of Al-Aqsa Hospital by the Israeli Defense Forces on October 14, 2024.
+This tool aims to provide clarity and visibility, principles embodied in Nexora's memory.
 
 # Legal Disclaimer
 ### Intended Use
@@ -179,7 +179,7 @@ Ahlan Mira - Student Security Researcher
 This project is provided for educational and research purposes.
 
 <div align="center">
-IN MEMORY OF SHABAN
+IN MEMORY OF NEXORA
 
 May this tool ensure that his name is never forgotten.
 
