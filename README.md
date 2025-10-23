@@ -1,5 +1,5 @@
 <p align="center">
-  
+  <img src="Nexora-pictures.png" alt="Nexora Logo" width="400">
 </p>
 
 <p align="center">
@@ -7,16 +7,16 @@ Advanced System Monitoring and Logging Tool
 </p>
 
 <p align="center">
-<a href="https://github.com/Ahlan06/shaban-logger/commits/main"><img src="https://img.shields.io/badge/version-1.0.0-blue"></a>
-<a href="https://github.com/Ahlan06/shaban-logger/blob/main/README.md"><img src="https://img.shields.io/badge/docs-passing-brightgreen.svg"></a>
-<a href="https://github.com/Ahlan06/shaban-logger/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Ahlan06/shaban-logger.svg"></a>
-<a href="https://github.com/Ahlan06/shaban-logger/graphs/contributors"><img src="https://img.shields.io/github/contributors/Ahlan06/shaban-logger.svg"></a>
-<a href="https://github.com/Ahlan06/shaban-logger/network/members"><img src="https://img.shields.io/github/forks/Ahlan06/shaban-logger.svg"></a>
+<a href="https://github.com/Ahlan06/Nexora/commits/main"><img src="https://img.shields.io/badge/version-1.0.0-blue"></a>
+<a href="https://github.com/Ahlan06/Nexora/blob/main/README.md"><img src="https://img.shields.io/badge/docs-passing-brightgreen.svg"></a>
+<a href="https://github.com/Ahlan06/Nexora/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Ahlan06/Nexora.svg"></a>
+<a href="https://github.com/Ahlan06/Nexora/graphs/contributors"><img src="https://img.shields.io/github/contributors/Ahlan06/Nexora.svg"></a>
+<a href="https://github.com/Ahlan06/Nexora/network/members"><img src="https://img.shields.io/github/forks/Ahlan06/Nexora.svg"></a>
 </p>
 
-## About Nexora Logger
+## About Nexora
 
-**Nexora Logger** is an advanced system monitoring and logging tool designed for security professionals and system administrators. It provides comprehensive system information collection, screenshot capture, network monitoring, and process logging capabilities.
+**Nexora** is an advanced system monitoring and logging tool designed for security professionals and system administrators. It provides comprehensive system information collection, screenshot capture, network monitoring, and process logging capabilities.
 
 
 
@@ -41,11 +41,11 @@ Advanced System Monitoring and Logging Tool
 Download with `git`:
 
 ```bash
-git clone https://github.com/Ahlan06/shaban-logger.git
+git clone https://github.com/Ahlan06/Nexora.git
 
 # Clone the repository
-git clone https://github.com/Ahlan06/shaban-logger.git
-cd shaban-logger
+git clone https://github.com/Ahlan06/Nexora.git
+cd Nexora
 
 # Remove any existing virtual environment (if present)
 rm -rf venv
@@ -63,8 +63,8 @@ Download with `git`:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Ahlan06/shaban-logger.git
-cd shaban-logger
+git clone https://github.com/Ahlan06/Nexora.git
+cd Nexora
 
 # Install dependencies
 pip install requests pillow psutil pyautogui colorama
@@ -88,33 +88,31 @@ A webhook is a way for applications to provide real-time information to other ap
 4. **Name it** (e.g., "Nexora Logger")
 5. **Copy the Webhook URL**
 6. **Use this URL in your configuration**
-# Project Structure
+## Project Structure
 
-shaban-logger/
+```
+Nexora/
 ├── install.py           # Automatic dependency installer
 ├── combined_logger.py   # Main logging system
 ├── nexora.py           # Additional monitoring tools
 ├── run_nexora.sh       # Linux/Mac launcher script
 ├── run_nexora.bat      # Windows launcher script
 └── README.md           # Documentation
+```
 
-# Dependencies
-requests - HTTP library for network operations
+## Dependencies
 
-pillow - Image processing for screenshot capture
+- **requests** - HTTP library for network operations
+- **pillow** - Image processing for screenshot capture
+- **psutil** - System utilities for process monitoring
+- **pyautogui** - Screenshot capture functionality
+- **colorama** - Terminal colors for better output
 
-psutil - System utilities for process monitoring
+## Supported Systems
 
-pyautogui - Screenshot capture functionality
-
-colorama - Terminal colors for better output
-
-# Supported Systems
-Windows 10/11
-
-Linux (Kali Linux, Ubuntu, Debian)
-
-macOS (Untested but should work)
+- Windows 10/11
+- Linux (Kali Linux, Ubuntu, Debian)  
+- macOS (Untested but should work)
 
 # In Memoriam of Nexora Al Dalu
 This project is named after Nexora, a young Palestinian computer scientist from Gaza who had his whole life ahead of him. He died at the age of 19 during the bombing of Al-Aqsa Hospital by the Israeli Defense Forces on October 14, 2024.
