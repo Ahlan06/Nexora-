@@ -111,12 +111,8 @@ Nexora/
 ## Supported Systems
 
 - Windows 10/11
-- Linux (Kali Linux, Ubuntu, Debian)  
+- Linux (Ubuntu, Debian, arch)  
 - macOS (Untested but should work)
-
-# In Memoriam of Nexora Al Dalu
-This project is named after Nexora, a young Palestinian computer scientist from Gaza who had his whole life ahead of him. He died at the age of 19 during the bombing of Al-Aqsa Hospital by the Israeli Defense Forces on October 14, 2024.
-This tool aims to provide clarity and visibility, principles embodied in Nexora's memory.
 
 # Legal Disclaimer
 ### Intended Use
