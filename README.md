@@ -106,7 +106,7 @@ Nexora/
 
 <img width="1030" height="877" alt="Capture d'écran 2025-10-25 192258" src="https://github.com/user-attachments/assets/d0c918ae-13c3-4b6c-bae5-86c4a65f5b88" />
 
-#### We can see all the information related to my target machine, such as the IP address, username, storage, my operating system version, and other useful information.
+#### We can see all the information related to my target machine, such as the IP address, username, storage, my operating system version, and other useful information. you can see a screenshot of my machine. 
 
 
 
