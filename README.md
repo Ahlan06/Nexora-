@@ -104,7 +104,10 @@ Nexora/
 
 ### take a closer look
 
-<img width="1030" height="877" alt="Capture d'écran 2025-10-25 192258" src="https://github.com/user-attachments/assets/d0c918ae-13c3-4b6c-bae5-86c4a65f5b88" />
+<img width="904" height="869" alt="Capture d'écran 2025-10-26 170826" src="https://github.com/user-attachments/assets/21f228dc-9017-4ad3-abd2-96a8a8fc24d1" />
+
+<img width="961" height="881" alt="image" src="https://github.com/user-attachments/assets/e88da1c5-e9dc-4700-9501-028f8fc98e36" />
+
 
 #### We can see all the information related to my target machine, such as the IP address, username, storage, my operating system version, and other useful information. you can see a screenshot of my machine. 
 
