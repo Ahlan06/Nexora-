@@ -35,7 +35,7 @@ ascii_art = f"""{Fore.GREEN}
 
                                                       {Fore.WHITE}  by Ahlan Mira    github : https://github.com/Ahlan06
 
-                                                                  {Fore.WHITE}             to pay tribute to Nexora al Dalou, a young computer scientist from Gaza.
+                                                            
 
                                                           Created for cybersecurity learning and research.
 
