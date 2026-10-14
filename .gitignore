@@ -1,5 +1,9 @@
 venv/
+myenv/
 __pycache__/
 *.pyc
 *.log
 screenshots/
+config.json
+.env
+*.env
