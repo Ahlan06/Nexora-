@@ -1,6 +1,6 @@
 <p align="center">
   <img src="Nexora-pictures.png" alt="Nexora Logo" width="400">
-</p>
+</p> 
 
 <p align="center">
 Advanced System Monitoring and Logging Tool
